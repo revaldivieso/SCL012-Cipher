@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head profile="file:///home/vianny/projects/SCL012-Cipher/src/index.html">
+    <link rel="icon" 
+          type="image/png" 
+          href="logo.jpg">
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Bla Bla web</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+
     <div id="root">
-      <h1>Hola mundo!</h1>
+      <img src="./logo.jpg" />
+      <h2>Bienvenido al sitio web dónde podrás escribir tu mensaje y obtener un cifrado, para que hables en claves con tus amigos.</h2>
+      <h3>Por favor escoge el número de desplazamiento en el siguiente recuadro (Offset).</h3>
     </div>
+
+    <div id= "cuadrito">
+    <input type= "number" id="offset" min= "1" max= "33"> Offset
+    </div>
+
+    <div id= "cuadro">
+      <textarea id="txt" rows = "10" cols = "40" placeholder= "Escribe tu mensaje"></textarea>  
+    </div>
+     
+    <div id="botones">
+      <button type id="cifrar">Cifrar</button>
+      <button type id="descifrar">Descifrar</button> 
+      <button type id="resetear">Resetear</button>  
+    </div>
+
+    <p id="parrafo"></p>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

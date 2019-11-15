@@ -1,1 +1,66 @@
 /* Acá va tu código */
+body  {
+    background-image: url("blahblah.jpg");
+    background-repeat: repeat-x;
+    background-position:10px 270px;
+ }
+
+ img {
+        margin: 0 auto;
+        width: 10%;
+ }
+ #root {
+     margin: 0 auto;
+     text-align: center;
+ }
+
+ h2 {
+     width: 50%; 
+     margin: 0 auto;
+     color: rgb(36, 6, 29);
+     font-size: 1.3em;
+     background-color: rgb(250, 168, 236);
+ }
+
+ h3 {
+     width: 50%; 
+     margin: 10px auto;
+     color: rgb(36, 6, 29);
+     font-size: 1em;
+     background-color: rgb(243, 201, 236);
+ }
+
+ #cuadrito {
+      margin: 10px auto;
+      text-align: center;
+ }
+
+ #cuadro {
+     margin: 20px auto;
+     text-align: center;
+ }
+
+ #botones {
+    background-color: rgb(243, 201, 236);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float:center;
+ } 
+
+ p {
+     width: 50%;
+     margin: 10px auto;
+     text-align: center;
+     color: rgb(36, 6, 29);
+     background-color: rgb(250, 168, 236);
+ }
+
+
+    
+
