@@ -6,33 +6,53 @@
           href="logo.jpg">
     <meta charset="utf-8">
     <title>Bla Bla web</title>
+    <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-
     <div id="root">
       <img src="./logo.jpg" />
-      <h2>Bienvenido al sitio web dónde podrás escribir tu mensaje y obtener un cifrado, para que hables en claves con tus amigos.</h2>
-      <h3>Por favor escoge el número de desplazamiento en el siguiente recuadro (Offset).</h3>
+      <h2>Bienvenido al sitio web dónde podrás escribir tu mensaje y obtener un cifrado César, para que hables en claves con tus amigos.</h2>
     </div>
+<div class= "contenedor">
+ <div class= "izquierdo">
+   <div id="instrucciones" class="uso">
+      <pre>
+      <strong>Instrucciones de uso</strong>
+      <strong>Para Cifrar:</strong>
+      Elige un desplazamiento (offset), 
+      escribe un texto, 
+      oprime el botón Cifrar 
+      y listo ya tienes tu mensaje.
+      <strong>Para Descifrar:</strong> 
+      Copia el texto cifrado, 
+      elige el desplazamiento, 
+      oprime el botón Descifrar,
+      y ya puedes revelar tu mensaje.
+      Para borrar oprime el boton resetaer.
+      </pre>
+   </div>
+ </div>
 
+ <div class= "derecho">
     <div id= "cuadrito">
-    <input type= "number" id="offset" min= "1" max= "33"> Offset
+      <input type= "number" id="offset" placeholder= "Offset">
     </div>
 
     <div id= "cuadro">
-      <textarea id="txt" rows = "10" cols = "40" placeholder= "Escribe tu mensaje"></textarea>  
+      <textarea id="txt" rows = "4" cols = "20" placeholder= "Escribe tu mensaje"></textarea>  
     </div>
      
     <div id="botones">
-      <button type id="cifrar">Cifrar</button>
-      <button type id="descifrar">Descifrar</button> 
-      <button type id="resetear">Resetear</button>  
+      <button class= "btns" type id="cifrar">Cifrar</button>
+      <button class= "btns" type id="descifrar">Descifrar</button> 
+      <button class= "btns" type id="resetear">Resetear</button>  
     </div>
 
     <p id="parrafo"></p>
-
+ </div>
+</div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

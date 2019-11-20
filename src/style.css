@@ -1,66 +1,117 @@
-/* Acá va tu código */
-body  {
-    background-image: url("blahblah.jpg");
-    background-repeat: repeat-x;
-    background-position:10px 270px;
+body {
+     font-family: 'Handlee', cursive;
+     background-image: url("new.jpg");
+     background-repeat: repeat-x;
+     background-position:10px 270px;
+     background-color:#08ffc8;
  }
 
  img {
         margin: 0 auto;
         width: 10%;
+        border-radius: 50px;
  }
+
  #root {
      margin: 0 auto;
      text-align: center;
  }
 
  h2 {
+     font-family: 'Handlee', cursive;
      width: 50%; 
      margin: 0 auto;
-     color: rgb(36, 6, 29);
-     font-size: 1.3em;
-     background-color: rgb(250, 168, 236);
+     color: black;
+     font-size: 150%;
+     padding: 10px;
+     border-radius: 25px;
  }
 
- h3 {
-     width: 50%; 
-     margin: 10px auto;
-     color: rgb(36, 6, 29);
-     font-size: 1em;
-     background-color: rgb(243, 201, 236);
- }
+.contenedor {
+     margin-top: 5%;
+     width: 100%;
+     height: 100%; 
+     align-items: start;
+     align-content: start;
+}
+
+.izquierdo {
+     width: 40%;
+     height: 100%;
+     text-align: left;
+     display: inline-block;
+}
+
+.derecho {
+     width: 50%;
+     height: 100%;
+     vertical-align: top;
+     margin-right: 80px auto;
+     text-align: right;
+     display: inline-block;
+}
+
+ #instrucciones {
+     margin-left: 20%;
+     width: 80%; 
+     text-align: left;
+     color:black;
+     font-size: 120%;
+     background-color: #dadada;
+     border-radius: 25px;
+ }    
 
  #cuadrito {
-      margin: 10px auto;
+      width: 50%; 
+      margin-left: 45%;
       text-align: center;
+      background-color: #dadada;;
+      border-radius: 25px;
+ }
+
+ #txt {
+     border-radius: 50px;
+     padding: 28px;
+     width: 75%;
+     margin-left: 80px;
+     font-size: 120%;
  }
 
  #cuadro {
      margin: 20px auto;
-     text-align: center;
+     text-align: right;
  }
 
  #botones {
-    background-color: rgb(243, 201, 236);
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    float:center;
- } 
-
- p {
-     width: 50%;
-     margin: 10px auto;
-     text-align: center;
-     color: rgb(36, 6, 29);
-     background-color: rgb(250, 168, 236);
+     width: 100%;
+     text-align: right;
  }
 
+ .btns {
+     margin: 0 auto;
+     background-color:#dadada;;
+     color: rgrgb(36, 6, 29);
+     padding: 15px 32px;
+     font-size: 16px;
+     cursor: pointer;
+     border-radius: 25px;
 
-    
+ } 
+ .btns:hover {
+      background-color: #08ffc8;
+ }
 
+ p {
+     font-family: 'Handlee', cursive;
+     width: 50%;
+     margin-left: 50%;
+     text-align:center;
+     background-color:  #dadada;;
+     color:  black;
+     font-size: 120%;
+     Border: 10px solid #fff7f7;
+ }
+
+ textarea, button, pre, input {
+    font-family: 'Handlee', cursive;
+ }

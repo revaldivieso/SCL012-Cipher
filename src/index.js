@@ -1,12 +1,11 @@
 const btnCifra = document.getElementById("cifrar");
 
-btnCifra.addEventListener("click",()=> {
-    const letras = document.getElementById("txt").value;
-    const chooseNumber = document.getElementById("offset").value;
-    console.log(letras);
-    const chooseOffset = parseInt(chooseNumber);
-    const res = window.cipher.encode(letras, chooseOffset);
-    const cifrado = document.getElementById("parrafo");
+btnCifra.addEventListener("click",() => {
+    let letras = document.getElementById("txt").value;
+    let chooseNumber = document.getElementById("offset").value;
+    let chooseOffset = parseInt(chooseNumber);
+    let res = window.cipher.encode(letras, chooseOffset);
+    let cifrado = document.getElementById("parrafo");
     cifrado.innerHTML = res; 
     //propiedad para acceder al html y le cambia el valor interno
 });
@@ -14,21 +13,19 @@ btnCifra.addEventListener("click",()=> {
 const btnDecifra = document.getElementById("descifrar");
 
 btnDecifra.addEventListener("click",() => {
-    const letras = document.getElementById("txt").value;
-    const chooseNumber = document.getElementById("offset").value;
+    let letras = document.getElementById("txt").value;
+    let chooseNumber = document.getElementById("offset").value;
     //const letrasTransformadas = letras.toUpperCase();
-    console.log(letras);
-    const chooseOffset = parseInt(chooseNumber);
-    const decipher = window.cipher.decode(letras, chooseOffset);
-    const textFinal = document.getElementById("parrafo");
+    let chooseOffset = parseInt(chooseNumber);
+    let decipher = window.cipher.decode(letras, chooseOffset);
+    let textFinal = document.getElementById("parrafo");
     textFinal.innerHTML = decipher; 
 });
 
 const btnReset = document.getElementById("resetear");
 btnReset.addEventListener("click",() => {
-    const letras = document.getElementById("txt");
-    console.log(letras);
+    let letras = document.getElementById("txt");
     letras.value= " "; 
-    const textFinal = document.getElementById("parrafo").innerHTML = " ";
-    console.log(textFinal);
+    let textFinal = document.getElementById("parrafo");
+    textFinal.innerHTML = " ";
 });
