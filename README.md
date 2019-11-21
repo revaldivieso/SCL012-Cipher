@@ -4,7 +4,17 @@
 
 Es una apliación pensada en usuarios jóvenes que necesitan cifrar o descifrar mensajes secretos a sus amigos sin ser descubiertos por terceros. 
 
-Este cifrado implica que los mensajes de chat privados se codifican, y solo el remitente y el destinatario de los mensajes disponen de las «claves» para leerlos. Sirve para garantizar que nadie, aparte de usted y su interlocutor, pueda descifrar los mensajes.
+### ¿Para qué sirve?
+
+Sirve para garantizar que nadie, aparte de usted y su interlocutor, pueda descifrar los mensajes.
+
+### ¿Cómo ayuda a los usuarios?
+Este cifrado implica que los mensajes de chat privados se codifican, y solo el remitente y el destinatario de los mensajes disponen de las «claves» para leerlos. 
+
+### Estilo
+
+Utilicé un estilo de colores unisex, para integrar a todo los usuarios. 
+Escogí una imagén de fondo juvenil con colores atractivos y la aplique en el body.
 
 ### Tecnología usada:
 * HTML 5
@@ -52,3 +62,4 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
 ## Enlace Deploy:
+https://revaldivieso.github.io/SCL012-Cipher/src/index.html
